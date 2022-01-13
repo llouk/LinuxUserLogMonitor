@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utmp", "Utmp\Utmp.csproj", "{004FF8E2-1433-4657-A420-AA4DA6311C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShadowzBurns.Utmp", "ShadowzBurns.Utmp\ShadowzBurns.Utmp.csproj", "{004FF8E2-1433-4657-A420-AA4DA6311C18}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utmp.Tests", "Utmp.Tests\Utmp.Tests.csproj", "{3D08D431-D96D-4F4D-B056-4FAA74AE0C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShadowzBurns.Utmp.Tests", "ShadowzBurns.Utmp.Tests\ShadowzBurns.Utmp.Tests.csproj", "{3D08D431-D96D-4F4D-B056-4FAA74AE0C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last", "Last\Last.csproj", "{D22F74FF-481D-469D-BA1D-291F138E7268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowzBurns.Last", "ShadowzBurns.Last\ShadowzBurns.Last.csproj", "{D22F74FF-481D-469D-BA1D-291F138E7268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last.Tests", "Last.Tests\Last.Tests.csproj", "{2C94B480-D8F6-415F-ABA4-7107CB234419}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowzBurns.Last.Tests", "ShadowzBurns.Last.Tests\ShadowzBurns.Last.Tests.csproj", "{2C94B480-D8F6-415F-ABA4-7107CB234419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

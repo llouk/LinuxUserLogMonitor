@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using System.IO;
 
-namespace Last.Tests
+namespace ShadowzBurns.Last.Tests
 {
 	public class LastParserTest
 	{

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
 
-namespace Utmp
+namespace ShadowzBurns.Utmp
 {
 	public class Converter
 	{

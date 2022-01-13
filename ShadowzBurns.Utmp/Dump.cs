@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Text;
 
-namespace Utmp
+namespace ShadowzBurns.Utmp
 {
 	public static class Dump
 	{

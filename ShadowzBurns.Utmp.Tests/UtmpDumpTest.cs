@@ -1,9 +1,9 @@
 using NUnit.Framework;
 using System.Linq;
 
-namespace Last.Tests
+namespace ShadowzBurns.Utmp.Tests
 {
-	public class LastDumpTest
+	public class UtmpDumpTest
 	{
 		[SetUp]
 		public void Setup()
@@ -13,7 +13,7 @@ namespace Last.Tests
 		[Test]
 		public void ReadContent()
 		{
-			var records = Last.Dump.Get().ToList();
+			var records = Utmp.Dump.Get().ToList();
 
 			if (records.Count > 2)
 				Assert.Pass();

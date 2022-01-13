@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using System.IO;
 
-namespace Utmp.Tests
+namespace ShadowzBurns.Utmp.Tests
 {
 	public class UtmpParserTest
 	{

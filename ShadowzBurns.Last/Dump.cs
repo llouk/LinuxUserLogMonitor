@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Last
+namespace ShadowzBurns.Last
 {
 	public static class Dump
 	{
