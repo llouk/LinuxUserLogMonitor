@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>ShadowzBurns //llouk</Authors>
     <Description>Parses linux utmp/wtmp file</Description>
-    <RepositoryUrl>https://github.com/llouk</RepositoryUrl>
+    <RepositoryUrl>https://github.com/llouk/LinuxUserLogMonitor</RepositoryUrl>
     <PackageTags>wtmp utmp linux</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression></PackageLicenseExpression>
