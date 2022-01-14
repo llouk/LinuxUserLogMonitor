@@ -6,14 +6,14 @@ namespace ShadowzBurns.Utmp
 {
 	public class UtmpEntry
 	{
-		public int LineType { get; private set; }
-		public string ProcessId { get; private set; }
-		public string Interface { get; private set; }
-		public string Username { get; private set; }
-		public string Terminal { get; private set; }
-		public string Source { get; private set; }
-		public string RemoteIp { get; private set; }
-		public DateTime RecordDate { get; private set; }
+		public int LineType { get; set; }
+		public string ProcessId { get; set; }
+		public string Interface { get; set; }
+		public string Username { get; set; }
+		public string Terminal { get; set; }
+		public string Source { get; set; }
+		public string RemoteIp { get; set; }
+		public DateTime RecordDate { get; set; }
 
 		/// <summary>
 		/// Generates a UtmpEntry by providing values
