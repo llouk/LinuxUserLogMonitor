@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShadowzBurns.Utmp</name>
+    </assembly>
+    <members>
+        <member name="M:ShadowzBurns.Utmp.Converter.ToJson(System.Collections.Generic.List{ShadowzBurns.Utmp.UtmpEntry})">
+            <summary>
+            Serialize the data to json format
+            </summary>
+            <param name="data">List of UtmpEntry objects</param>
+            <returns>Returns the json representation of tha data supplied</returns>
+        </member>
+        <member name="M:ShadowzBurns.Utmp.Dump.Get(System.String)">
+            <summary>
+            Opens the utmp/wtmp file and retrieves all records
+            </summary>
+            <param name="filename">The filename of the utmp/wtmp file, if not path is give the default value is '/var/log/wtmp'</param>
+            <returns>All the lines as an IEnumerable of strings</returns>
+        </member>
+        <member name="M:ShadowzBurns.Utmp.Parser.Parse(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Transforms plain text lines loaded to a list of data objects
+            </summary>
+            <param name="fileLines">Content of the dump of utmp/wtmp file</param>
+            <returns>A list of UtmpEntry objects</returns>
+        </member>
+        <member name="M:ShadowzBurns.Utmp.UtmpEntry.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            Generates a UtmpEntry by providing values
+            </summary>
+            <param name="lineType"></param>
+            <param name="processId"></param>
+            <param name="iface"></param>
+            <param name="username"></param>
+            <param name="terminal"></param>
+            <param name="source"></param>
+            <param name="remoteIp"></param>
+            <param name="recordDate"></param>
+        </member>
+        <member name="M:ShadowzBurns.Utmp.UtmpEntry.#ctor(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Generates a UtmpEntry object by a list of values.
+            </summary>
+            <param name="items">List must be ordered as LineType, ProcessId, Interface, Username, Terminal, Source, RemoteIp, RecordDate</param>
+        </member>
+    </members>
+</doc>
