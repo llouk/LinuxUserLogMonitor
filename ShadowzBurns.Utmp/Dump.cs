@@ -16,7 +16,8 @@ namespace ShadowzBurns.Utmp
 			// Redirect the output stream of the child process.
 			process.StartInfo.UseShellExecute = false;
 			process.StartInfo.RedirectStandardOutput = true;
-			process.StartInfo.FileName = $"utmpdump {filename}";
+			process.StartInfo.FileName = "utmpdump"; 
+			process.StartInfo.Arguments = filename;
 			process.Start();
 			// Do not wait for the child process to exit before
 			// reading to the end of its redirected stream.
